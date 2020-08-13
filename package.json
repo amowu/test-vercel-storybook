@@ -1,0 +1,34 @@
+{
+  "name": "test-vercel-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amowu/test-vercel-storybook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amowu/test-vercel-storybook/issues"
+  },
+  "homepage": "https://github.com/amowu/test-vercel-storybook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.0.5",
+    "@storybook/addon-essentials": "^6.0.5",
+    "@storybook/addon-links": "^6.0.5",
+    "@storybook/svelte": "^6.0.5",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1",
+    "svelte": "^3.24.1",
+    "svelte-loader": "^2.13.6"
+  },
+  "dependencies": {}
+}
